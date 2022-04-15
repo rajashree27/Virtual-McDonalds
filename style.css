@@ -1,0 +1,49 @@
+.bg-image{
+    background-image: url("https://rmhcbayarea.org/wp-content/uploads/McDonalds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+#welcome{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    border: 3px solid white;
+    margin-bottom: 50px;
+
+}
+
+#mainContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#itemContainer{
+    color: white;
+    /* margin-top: 100px; */
+    margin-left: 5%;
+    width: 40%;
+}
+
+#orderContainer{
+    width: 40%;
+    margin:0;
+    /* font-size: 20px;
+    padding: 10px; */
+    text-align: center;
+}
+
+
+
+.form-check{
+    font-size: 20px;
+    padding: 10px;
+}

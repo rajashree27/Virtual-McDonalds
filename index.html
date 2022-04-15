@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="bg-image"></div>
+
+		<div id="welcome">Welcome to Mc Donald's.</div>
+
+		<div id="maincontainer">
+			<div id="itemContainer" style="display: inline-block;">
+				<h2>Please choose from the menu:</h2>
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="checkbox"
+						value="Cheeseburger"
+						id="flexCheckDefault"
+					/>
+					<label class="form-check-label" for="flexCheckDefault"
+						>Cheeseburger</label
+					>
+				</div>
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="checkbox"
+						value="Big Mac"
+						id="flexCheckDefault"
+					/>
+					<label class="form-check-label" for="flexCheckDefault">Big Mac</label>
+				</div>
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="checkbox"
+						value="Maharaja Mac"
+						id="flexCheckDefault"
+					/>
+					<label class="form-check-label" for="flexCheckDefault"
+						>Maharaja Mac</label
+					>
+				</div>
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="checkbox"
+						value="Fries"
+						id="flexCheckDefault"
+					/>
+					<label class="form-check-label" for="flexCheckDefault">Fries</label>
+				</div>
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="checkbox"
+						value="Coke"
+						id="flexCheckDefault"
+					/>
+					<label class="form-check-label" for="flexCheckDefault">Coke</label>
+				</div>
+
+				<button type="button" class="btn btn-warning btn-lg btn-block" onclick="orderFood()">Place your order</button>
+			</div>
+
+			<div id="orderContainer" style="display: inline-block;"></div>
+		</div>
+	</body>
+</html>
+<script src="script.js"></script>
